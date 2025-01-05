@@ -1,0 +1,43 @@
+{
+  "name": "gemini-tts-app",
+  "version": "1.0.0",
+  "description": "A Python-Flask backend with a Node.js frontend for text-to-speech application.",
+  "main": "index.js",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "cd backend && python -m flask run & cd ../frontend && vite",
+    "dev:backend": "python -m flask run",
+    "dev:frontend": "vite",
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "tsc",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "nodejs",
+    "template",
+    "flask",
+    "text-to-speech"
+  ],
+  "author": {
+    "name": "Joseph Archer",
+    "email": "viewtiful.kja@gmail.com",
+    "url": "https://joseph-archer.com"
+  },
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/project-name.git"
+  },
+  "bugs": {
+    "url": "https://github.com/username/project-name/issues"
+  },
+  "homepage": "https://github.com/username/project-name#readme"
+}
