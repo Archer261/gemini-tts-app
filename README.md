@@ -1,4 +1,4 @@
-# React + Vite
+# Gemini-TTS APp
 
 tldr: it does the thing
 
